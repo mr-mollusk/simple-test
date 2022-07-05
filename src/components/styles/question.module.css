@@ -1,0 +1,25 @@
+.question__body {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin-top: 15px;
+    height: 30px;
+    padding: 7px;
+    min-width: 300px;
+    background: none;
+    border: 1px solid #fff;
+    caret-color: #fff;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
